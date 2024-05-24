@@ -12,5 +12,5 @@ import { EmployeeComponent } from './employee/employee.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'frontend';
+  title = 'ice-cream-shop-ui';
 }
