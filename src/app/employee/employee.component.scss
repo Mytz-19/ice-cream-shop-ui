@@ -1,0 +1,37 @@
+@import './../../styles.scss';
+
+.section {
+    height: 60px;
+    padding: 25px;
+    background-color: $blue-10;
+
+    &-header{
+        font-size: 20px;
+        font-family: cursive;
+    }
+}
+
+.section-content {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px;
+}
+
+.align-content {
+    text-align: center;
+}
+
+.img-icon {
+    width: 250px; 
+    height: 200px;
+}
+
+.highlight:hover {
+    box-shadow: 10px 10px 20px #24242454;
+    cursor: pointer;
+}
+
+.selected {
+    border: 2px solid blue;
+    cursor: pointer;
+}
